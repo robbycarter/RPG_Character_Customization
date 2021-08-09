@@ -22,5 +22,5 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 - Tailwind CSS
 
 ## Deployed on Vercel
-
+View demo on [https://rpg-character-customization.vercel.app/](https://rpg-character-customization.vercel.app/)
 
