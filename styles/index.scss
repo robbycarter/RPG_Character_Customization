@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+
+html {
+  @apply bg-lightTheme;
+}
+
+html.dark {
+  @apply bg-darkTheme;
+}
+
+html,body {
+  font-family: Oldenburg;
+}

@@ -1,0 +1,80 @@
+{
+    "headTitle": "RPG Character",
+    "settings": {
+        "NewCharacter": "New Character",
+        "ImportCharacter": "Import Character",
+        "ExportCharacter": "Export Character"
+    },
+    "basicInfo": {
+        "name": "Character Name",
+        "race": "Race",
+        "raceOptions": [{
+            "label": "Human",
+            "value": "Human"
+        }, {
+            "label": "Elf",
+            "value": "Elf"
+        }, {
+            "label": "Dwarf",
+            "value": "Dwarf"
+        }]
+    },
+    "attributes": {
+        "title": "Attribute",
+        "strength": "Strength",
+        "intelligence": "Intelligence",
+        "agility": "Agility",
+        "charisma": "Charisma",
+        "life": "Life",
+        "evasion": "Evasion",
+        "vigor": "Vigor"
+    },
+    "skills": {
+        "title": "Skills",
+        "train":"Train",
+        "levelOptions": [{
+            "level": "Level 0: Untrained"
+        }, {
+            "level": "Level 1: Beginner"
+        }, {
+            "level": "Level 2: Apprentice"
+        }, {
+            "level": "Level 3: Adept"
+        }, {
+            "level": "Level 4: Expert"
+        }, {
+            "level": "Level 5: Master"
+        }],
+        "skillOptions": [{
+            "id": 0,
+            "name": "Attack"
+        }, {
+            "id": 1,
+            "name": "Stealth"
+        }, {
+            "id": 2,
+            "name": "Archery"
+        }, {
+            "id": 3,
+            "name": "Learnability"
+        }, {
+            "id": 4,
+            "name": "Survival"
+        }, {
+            "id": 5,
+            "name": "Medicine"
+        }, {
+            "id": 6,
+            "name": "Intimidation"
+        }, {
+            "id": 7,
+            "name": "Insight"
+        }, {
+            "id": 8,
+            "name": "Appearance"
+        }, {
+            "id": 9,
+            "name": "Manipulation"
+        }]
+    }
+}
