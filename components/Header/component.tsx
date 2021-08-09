@@ -110,6 +110,7 @@ export const Header: FC = () => {
     }
 
     const importCharacter = () => {
+        console.log(characterImportFile)
 
         selectCharacterImportFile({ accept: 'application/json', multiple: false }, (data: any) => {
             // file - is the raw File Object
